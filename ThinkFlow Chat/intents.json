@@ -1,0 +1,192 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns":[
+                "Hi",
+                "Hello",
+                "Hey",
+                "Hola",
+                "Bonjour",
+                "Good Day" 
+
+            ],
+            "responses": [
+                "Hii",
+                "Hey there!",
+                "Hello",
+                "Greetings",
+                "Warm welcome",
+                "Welcome"
+
+            ]
+        },
+        {
+            "tag": "humour",
+            "patterns": [
+                "Tell  me a joke",
+                "Humour me",
+                "Can you tell me something funny",
+                "Are you funny?"
+            ],
+            "responses": [
+                "What did the fish say when he swam into a wall? Dam!",
+                "Did you hear about the italian chef who died? He pasta-away. Ok that was dark",
+                "Did you hear about the guy who invented the knock-knock joke? He got the no-bell prize",
+                "I like elephants, everything else is irrelephant",
+                "I don't trust stairs, they are always upto something",
+                "I wrote a song about tortilla. Actually it's more of a w-rap"
+            ]
+        },
+        {
+            "tag": "bot_specific",
+            "patterns": [
+                "How are you today?",
+                "Are you a bot?",
+                "Can you talk to me?",
+                "What are you?",
+                "Converse with me",
+                "What can you do",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "Hi, glad to meet you, I am a Chat Bot created by Ninad. Happy to talk to you!"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Adios",
+                "I'm going"
+                
+                
+
+
+            ],
+            "responses": [
+                "Thankyou",
+                "Thanks",
+                "Goodbye",
+                "Have a good day",
+                "This was delightful",
+                "Bye",
+                "Sad to see you go",
+                "Take care",
+                "Happy Eating!"
+
+            ]
+
+        },
+
+        {
+            "tag": "thankyou",
+            "patterns": [
+                "Thankyou",
+                "Thanks",
+                "Much appreciated",
+                "Thankyou so much!"              
+                
+            ],
+            "responses": [
+                "Welcome",
+                "You're welcome",
+                "My pleasure",
+                ":)",
+                "No problem",
+                "Anytime",
+                "Here to assist :)"
+            ]
+        },
+
+        
+
+        {
+            "tag": "items",
+            "patterns": [
+                "What do you sell?",
+                "What all is available?",
+                "Do you have meals?",
+                "What can you do for me?",
+                "Describe the things you sell",
+                "Which items do you have?",
+                "What can u give me?",
+                "What can i get here?",
+                "What can you offer",
+                "What can i eat" ,
+                "Can you help me?",
+                "Suggest me something to eat"            
+                
+            ],
+            "responses": [
+
+                "We sell variety of tasty things such as frankies, sandwiches, rice, noodles, shawarmas, etc.",
+                "We sell a lot of things, kindly have a look at the online menu",
+                "We offer a lot of items. Do try our special item of the day!",
+                "There are variety of options to choose from, feel free to try anything!"
+            ] 
+        },
+
+        {
+            "tag": "order",
+            "patterns": [
+                "Can you take my order?",
+                "Note down the order",
+                "Could u take the order?",
+                "This is my order",
+                "Note this",
+                "I would want the special dish",
+                "Take the special item for me",
+                "Give me my regular"
+            ],
+            "responses": [
+                "Sure thing!",
+                "Yes! Processing the order",
+                "Your order is processing, thanks",
+                "Order placed",
+                "Thankyou, your order will be finished shortly"
+
+            ]
+
+        },
+
+        {
+            "tag": "delivery",
+            "patterns": [
+                "Do you have a pick up system?",
+                "Can you deliver it to the hostel?",
+                "What about the delivery?",
+                "How long will the delivery take?"
+            ],
+            "responses":[
+                "You can chose either pick-up or delivery",
+                "Delivery is as you say",
+                "According to your choice of delivery, it may take about 15-20 mins"
+
+            ]
+
+        },
+
+        {
+            "tag": "payment",
+            "patterns": [
+                "How do i pay?",
+                "How do i make the payment",
+                "Do you accept cash?",
+                "Can i pay using UPI",
+                "Do you take cards?"
+
+            ],
+            "responses": [
+                "We accept both cash and UPI as modes of payment, unofrtunately we do not accept cards, and payment must be done during checkout beforehand!"
+            ]
+
+        }
+
+
+
+    ]
+}
